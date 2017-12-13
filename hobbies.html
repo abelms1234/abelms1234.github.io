@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Matthew Steven Abel II</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script>
+        $(function(){
+            $("#slides").slidesjs({
+                width: 50,
+                height: 50
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready( function() {
+            $('#nav_menu').slicknav( {prependTo:"#mobile_menu"} );
+        });
+    </script>
+    <link rel="shortcut icon" href="images/epiphone.JPG">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bilbo Swash Caps' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/hobbies.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+</head>
+<body>
+<header>
+    <img src="images/epiphone.JPG" alt="Matt's Guitar">
+    <h2>Matthew Steven Abel II:</h2>
+    <h3>My Website Resume</h3>
+</header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="projects.html" >Projects</a></li>
+        <li><a href="workexperience.html">Work Experience</a>
+        <li class="lastitem"><a href="hobbies.html" class="current">Hobbies</a></li>
+    </ul>
+</nav>
+<aside>
+    <h2>Hobbies</h2>
+    <p>All of my current hobbies and favorite activities are listed on this page. I've included a slide show as well, which can be viewed below. </p>
+
+</aside>
+<main>
+
+    <section>
+        <h1> My Hobbies Include...</h1>
+        <ol>
+            <li><h2>Golfing</h2><p> I've been out to play a good amount of golf rounds with friends and family. It's both competitive and fun with a group. </p></li>
+            <li><h2>Playing the Guitar</h2><p> I enjoy relaxing and playing guitar. I know many notes and tabs to many different songs which I practice in my downtime. </p></li>
+            <li><h2>Art </h2><p> My art is something I take pride in. From simple sketches to entire murals. </p></li>
+            <li><h2>Archery </h2><p> On the weekends, I prefer to practice my aiming with my bow. </p></li>
+        </ol>
+        <div id="slides">
+            <img src="images/golfing.JPG">
+            <img src="images/guitar.JPG">
+            <img src="images/wolf.JPG">
+            <img src="images/archery.JPG">
+        </div>
+    </section>
+</main>
+
+
+<footer>
+    <p> &copy 2017 Matthew Steven Abel II </p>
+</footer>
+</body>
+</html>

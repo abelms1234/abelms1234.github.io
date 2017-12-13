@@ -1,0 +1,17 @@
+
+aside {
+    float: left;
+}
+main {
+    min-height: 775px;
+}
+section ol {
+    padding-left: 32%;
+}
+#slides {
+    display: none;
+    max-height: 500px;
+    max-width: 250px;
+    height: 80%;
+    width: 80%;
+}
